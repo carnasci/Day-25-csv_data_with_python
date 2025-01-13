@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cfd20852-0e8d-48ec-80d3-c1d28cbe422d" name="Changes" comment="Day 25 - env created, csv weather data added to project">
+    <list default="true" id="cfd20852-0e8d-48ec-80d3-c1d28cbe422d" name="Changes" comment="Day 25 - first look into using pandas to manipulate csv files - WOW">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -76,7 +76,23 @@
       <option name="project" value="LOCAL" />
       <updated>1736809193923</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Day 25 - manipulated data in csv file">
+      <option name="closed" value="true" />
+      <created>1736809780564</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1736809780564</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Day 25 - first look into using pandas to manipulate csv files - WOW">
+      <option name="closed" value="true" />
+      <created>1736810217182</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1736810217182</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -84,6 +100,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Day 25 - env created, csv weather data added to project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 25 - env created, csv weather data added to project" />
+    <MESSAGE value="Day 25 - manipulated data in csv file" />
+    <MESSAGE value="Day 25 - first look into using pandas to manipulate csv files - WOW" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 25 - first look into using pandas to manipulate csv files - WOW" />
   </component>
 </project>
