@@ -46,12 +46,31 @@ import pandas
 # print(monday.temp * 9/5 + 32)
 
 #Create dataframe from scratch
+# data_dict = {
+#     "students": ["Amy", "James", "Angela"],
+#     "scores": [76, 56, 65],
+# }
+#
+# data = pandas.DataFrame(data_dict)
+# print(data)
+# data.to_csv("new_data.csv")
+
+data = pandas.read_csv("2018_Central_Park_Squirrel_Census_-_Squirrel_Data.csv")
+
+black_count = len(data[data["Primary Fur Color"] == "Black"])
+#print(black)
+
+cinnamon_count = len(data[data["Primary Fur Color"] == "Cinnamon"])
+#print(cinnamon)
+
+gray_count = len(data[data["Primary Fur Color"] == "Gray"])
+#print(gray)
+
 data_dict = {
-    "students": ["Amy", "James", "Angela"],
-    "scores": [76, 56, 65],
+    "Fur Color": ["Black", "Cinnamon", "Gray"],
+    "Squirrel count": [103, 392, 2473],
 }
 
-data = pandas.DataFrame(data_dict)
-print(data)
-data.to_csv("new_data.csv")
-
+squirrel_data = pandas.DataFrame(data_dict)
+print(squirrel_data)
+squirrel_data.to_csv("squirrel_count.csv")
